@@ -1,10 +1,16 @@
 # Credit Risk Analysis
 
 ## Overview
+Using supervised machine learning and logistic regression to decide credit risk based on a variety of features
 
 ## Resources
+* Python 3.7
+* Jupyter Notebook
+* Data: Loan Information
 
 ## Analysis
+Python libraries Scikit-learn package
+The performance of each model was assessed with accuracy_score(), a method that compares the actual outcome (y) values from the test set against the model's predicted values. The accuracy score, therefore, is simply the percentage of predictions that are correct. 
 
 ## Results
 
