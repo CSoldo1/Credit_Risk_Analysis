@@ -51,6 +51,6 @@ Boosting algorithms combine multiple low-accuracy models to create a high accura
 ![Easy Ensemble Classifier](https://github.com/CSoldo1/Credit_Risk_Analysis/blob/main/Images/Easy_Ensemble_Classifier.PNG)
 
 ### Summary
-
+Precision was high for each model while the balanced accuracy score varied. The majority of the one-method models (either oversampling or undersampling) had balanced accuracy scores within the 60% range. The cluster centroids model was the least accurate model with a score of 0.54. The ensemble learners, on average, performed better. The AdaBoost Classifier method performed the best with an balanced accuracy score of 0.93. Therefore, the ensemble AdaBoost Classifier is the best model to use because it has the highest recall score and the highest balanced accuracy score. 
 
 
