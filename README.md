@@ -1,20 +1,20 @@
 # Credit Risk Analysis
 
 ## Overview
-Using supervised machine learning and logistic regression to decide credit risk based on a variety of features
+In this challenge, I used supervised machine learning to solve a real-world challenge: credit card risk. I employed various techniques to train and evaluate models with unbalanced classes. 
 
 ## Resources
 * Python 3.7
+* Packages: imbalanced-learn and scikit-learn
 * Jupyter Notebook
-* Data: Loan Information
+* Data: Credit Card Dataset from LendingClub
 
 ## Analysis
-Python libraries Scikit-learn package
-The performance of each model was assessed with accuracy_score(), a method that compares the actual outcome (y) values from the test set against the model's predicted values. The accuracy score, therefore, is simply the percentage of predictions that are correct. 
+Credit card risk data is an inherently imbalanced dataset. There is a severe skew in class distribution: there are for fewer risky borrowers. ed he credit card dataset using RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. 
+The performance of each model was assessed with accuracy_score(), a method that compares the actual outcome (y) values from the test set against the model's predicted values. The accuracy score, therefore, is simply the percentage of predictions that are correct. Along with quantifying the accuracy score, a confusion matrix was collated to evaluate the precision of the test. In machine learning, precision i s a measure of how reliable a positive classification is. The sensitivity of the model was also assessed. 
 
 ## Results
-
-#### Naive Random Oversampling
+#### RandomOverSampler
 
 balanced accuracy score = 0.657
 
